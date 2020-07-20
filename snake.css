@@ -1,0 +1,43 @@
+#board {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  .square {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: sandybrown;
+    border: 1px solid;
+  }
+
+  .square .item {
+    text-align: left;
+  }
+  
+  #canvas {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+    /*top: 100px;
+    left: 100px;*/
+  }
+  .img-dice{
+    height: 50px;
+    width:50px;
+    position: absolute;
+    left: 20%;
+    top: 30px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+    transform: translateX(-50%);
+
+  }
+  
+  .player {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid;
+  }
